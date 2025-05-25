@@ -1,0 +1,28 @@
+ .footer {
+      padding: 20px 0;
+      background-color: #f9f9f9;
+      border-top: 1px solid #eee;
+   
+    }
+    
+    .logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+    
+    .footer-logo {
+      height: 50px;
+      width: auto;
+    }
+    
+    @media (max-width: 768px) {
+      .logos {
+        gap: 20px;
+      }
+      
+      .footer-logo {
+        height: 40px;
+      }
+    }
