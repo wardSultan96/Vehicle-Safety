@@ -1,15 +1,16 @@
 [
-  {
+
+   {
     "id": 1,
-    "owner": "شركة نجمة سهود النقل",
-    "chassisNumber": "LDY6GS9C6J0002857",
-    "plateNumberArabic": "٥٨٩٥",
-    "plateLettersArabic": ["أ", "د", "ق"],
-    "plateNumberEnglish": "5895",
-    "plateLettersEnglish": ["G", "D", "A"],
-    "company": "زونج تونج",
-    "serialNumber": "803241610",
-    "vehicleType": "باص",
-    "yearOfManufacture": "2018"
+    "owner": "مؤسسة الاسهد للنقل المدرسي",
+    "chassisNumber": "LFZ6DADD5KBX00550",
+    "plateNumberArabic": "٨٨١٤",
+    "plateLettersArabic": ["أ", "ر", "أ"],
+    "plateNumberEnglish": "8814",
+    "plateLettersEnglish": ["A", "R", "A"],
+    "company": "فيوجان",
+    "serialNumber": "7014770148",
+    "vehicleType": "ميني فان",
+    "yearOfManufacture": "2019"
   }
 ]
