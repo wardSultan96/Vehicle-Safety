@@ -2,6 +2,9 @@
   command = "npm run build:prod"
   publish = "dist/demo"
 
+[build.environment]
+  NODE_VERSION = "18.20.0"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
