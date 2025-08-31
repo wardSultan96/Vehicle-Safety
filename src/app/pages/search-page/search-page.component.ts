@@ -198,20 +198,28 @@ export class SearchPageComponent {
     }
 
     const searchCriteria = { ...this.form.value };
+    console.log("searchCriteria:", searchCriteria);
     this.http.get<any[]>('/assets/vehicle-data.json').subscribe({
       next: data => {
         let foundUser = null;
         if (this.activeTab === 'plate') {
+          console.log("11111111111111111111111111")
           foundUser = data.find(u =>
             u.plateNumberArabic === searchCriteria.plateNumber &&
-            JSON.stringify(u.plateLettersArabic) === JSON.stringify([searchCriteria.plateLetter1, searchCriteria.plateLetter2, searchCriteria.plateLetter3])
+            u.plateLettersArabic.length === 3 &&
+            u.plateLettersArabic[0] === searchCriteria.plateLetter1 &&
+            u.plateLettersArabic[1] === searchCriteria.plateLetter2 &&
+            u.plateLettersArabic[2] === searchCriteria.plateLetter3
           );
         } else if (this.activeTab === 'serial') {
+              console.log("22222222222222222222")
           foundUser = data.find(u => u.serialNumber === searchCriteria.serialNumber);
         } else if (this.activeTab === 'chassis') {
+              console.log("33333333333333333333")
           foundUser = data.find(u => u.chassisNumber === searchCriteria.chassisNumber);
         }
         if (foundUser) {
+          console.log("Found user:", foundUser);
           this.router.navigate(['/result', foundUser.id]);
         } else {
           this.snackBar.open('لم يتم العثور على بيانات مطابقة.', 'إغلاق', { duration: 3000 });
