@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm run build:prod"
   publish = "dist/demo"
 
 [[redirects]]
@@ -7,3 +7,4 @@
   to = "/index.html"
   status = 200
   force = true
+
