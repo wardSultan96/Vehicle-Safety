@@ -110,7 +110,7 @@ export class ResultPageComponent {
   constructor(private router: Router, private route: ActivatedRoute, private http: HttpClient) {
     this.route.params.subscribe(params => {
       const id = +params['id'];
-      this.http.get<any[]>('/assets/vehicle-data.json').subscribe(data => {
+      this.http.get<any[]>('/assets/vehicle-data.json').subscribe((data: any[]) => {
         this.user = data.find(u => u.id === id);
       });
     });
