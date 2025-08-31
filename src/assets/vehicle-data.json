@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "owner": "شركة نجمة سهود النقل",
+    "chassisNumber": "LDY6GS9C6J0002857",
+    "plateNumberArabic": "٥٨٩٥",
+    "plateLettersArabic": ["أ", "د", "ق"],
+    "plateNumberEnglish": "5895",
+    "plateLettersEnglish": ["G", "D", "A"],
+    "company": "زونج تونج",
+    "serialNumber": "803241610",
+    "vehicleType": "باص",
+    "yearOfManufacture": "2018"
+  }
+]

@@ -1,65 +1,56 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-result-page',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, HttpClientModule],
   template: `
-    <div class="main-container animated">
+    <div class="main-container animated" *ngIf="user">
       <div class="bordered-container">
         <div class="success-banner">
-        
           <span class="success-icon">✓</span>
-            <span>صالح وساري</span>
+          <span>صالح وساري</span>
         </div>
-        
         <div class="plate-number-display info-row">
-          <div class="plate-box">6892SSA</div>
+          <div class="plate-box">{{user.plateNumberArabic}} {{user.plateLettersEnglish.join('')}}</div>
         </div>
-     
         <div class="vehicle-info">
           <div class="info-row">
             <div class="info-label text-color">رقم الهيكل:</div>
-            <div class="info-value text-color-value">WEB410550131042223</div>
+            <div class="info-value text-color-value">{{user.chassisNumber}}</div>
           </div>
-          
           <div class="info-row">
             <div class="info-label text-color">الشركة الصانعة:</div>
-            <div class="info-value text-color-value">مرسيدس</div>
+            <div class="info-value text-color-value">{{user.company}}</div>
           </div>
-          
           <div class="info-row">
             <div class="info-label text-color">نوع السيارة:</div>
-            <div class="info-value text-color-value">باص</div>
+            <div class="info-value text-color-value">{{user.vehicleType}}</div>
           </div>
-          
           <div class="info-row">
-            <div class="info-label text-color">تاريخ الفحص:</div>
-            <div class="info-value text-color-value">22/5/2025</div>
+            <div class="info-label text-color">المالك:</div>
+            <div class="info-value text-color-value">{{user.owner}}</div>
           </div>
-          
           <div class="info-row">
-            <div class="info-label text-color">مركز الفحص:</div>
-            <div class="info-value text-color-value">الرياض حي النفيسة</div>
+            <div class="info-label text-color">الرقم التسلسلي:</div>
+            <div class="info-value text-color-value">{{user.serialNumber}}</div>
           </div>
-          
           <div class="info-row">
-            <div class="info-label text-color">الخدمة:</div>
-            <div class="info-value text-color-value">خدمة الفحص الفني الدوري لباقات الحج</div>
-          </div>
-          
-          <div class="info-row">
-            <div class="info-label text-color">تاريخ انتهاء صلاحية الفحص:</div>
-            <div class="info-value text-color-value">18/11/2025</div>
+            <div class="info-label text-color">سنة الصنع:</div>
+            <div class="info-value text-color-value">{{user.yearOfManufacture}}</div>
           </div>
         </div>
-        
         <div class="search-button">
           <button class="btn btn-primary full-width" (click)="goBack()">رجوع</button>
         </div>
       </div>
+    </div>
+    <div *ngIf="!user">
+      <p>لا يوجد بيانات للمركبة المطلوبة.</p>
+      <button class="btn btn-primary full-width" (click)="goBack()">رجوع</button>
     </div>
   `,
   styles: [`
@@ -115,8 +106,15 @@ import { CommonModule } from '@angular/common';
   `]
 })
 export class ResultPageComponent {
-  constructor(private router: Router) {}
-  
+  user: any = null;
+  constructor(private router: Router, private route: ActivatedRoute, private http: HttpClient) {
+    this.route.params.subscribe(params => {
+      const id = +params['id'];
+      this.http.get<any[]>('/assets/vehicle-data.json').subscribe(data => {
+        this.user = data.find(u => u.id === id);
+      });
+    });
+  }
   goBack() {
     this.router.navigate(['/']);
   }

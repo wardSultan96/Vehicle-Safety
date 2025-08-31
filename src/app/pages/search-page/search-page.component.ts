@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-search-page',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, HttpClientModule, MatSnackBarModule],
   template: `
     <div class="main-container animated">
       <div class="bordered-container">
@@ -34,29 +36,38 @@ import { CommonModule } from '@angular/common';
           <div class="tab" [class.active]="activeTab === 'chassis'" (click)="activeTab = 'chassis'">رقم الهيكل</div>
         </div>
         
-        <div class="search-form" *ngIf="activeTab === 'plate'">
-          <p class="form-label">رقم اللوحة</p>
-          <div class="plate-inputs">
-            <input type="text" class="form-control plate-letters" placeholder="س ص" />
-            <input type="text" class="form-control plate-prefix" placeholder="١ - أ" />
-              <input type="text" class="form-control plate-prefix" placeholder="١ - أ" />
-            <input type="text" class="form-control plate-number" placeholder="6892" [(ngModel)]="plateNumber" />
+        <form [formGroup]="form">
+          <div class="search-form" *ngIf="activeTab === 'plate'">
+            <p class="form-label">رقم اللوحة</p>
+            <div class="plate-inputs">
+              <select class="form-control plate-letters" formControlName="plateLetter1">
+                <option *ngFor="let letter of arabicLetters" [value]="letter.arabic">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
+              </select>
+              <select class="form-control plate-prefix" formControlName="plateLetter2">
+                <option *ngFor="let letter of arabicLetters" [value]="letter.arabic">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
+              </select>
+              <select class="form-control plate-prefix" formControlName="plateLetter3">
+                <option *ngFor="let letter of arabicLetters" [value]="letter.arabic">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
+              </select>
+              <input type="text" class="form-control plate-number" placeholder="6892" formControlName="plateNumber" />
+            </div>
           </div>
-        </div>
-        
-        <div class="search-form" *ngIf="activeTab === 'serial'">
-          <p class="form-label">الرقم التسلسلي</p>
-          <input type="text" class="form-control" placeholder="أدخل الرقم التسلسلي" />
-        </div>
-        
-        <div class="search-form" *ngIf="activeTab === 'chassis'">
-          <p class="form-label">رقم الهيكل</p>
-          <input type="text" class="form-control" placeholder="أدخل رقم الهيكل" />
-        </div>
+          
+          <div class="search-form" *ngIf="activeTab === 'serial'">
+            <p class="form-label">الرقم التسلسلي</p>
+            <input type="text" class="form-control" placeholder="أدخل الرقم التسلسلي" formControlName="serialNumber" />
+          </div>
+          
+          <div class="search-form" *ngIf="activeTab === 'chassis'">
+            <p class="form-label">رقم الهيكل</p>
+            <input type="text" class="form-control" placeholder="أدخل رقم الهيكل" formControlName="chassisNumber" />
+          </div>
+        </form>
         
         <div class="search-button">
           <button class="btn btn-primary full-width" (click)="search()">التحقق</button>
         </div>
+        <div *ngIf="errorMsg" class="alert alert-danger" style="margin-top:10px;">{{errorMsg}}</div>
       </div>
     </div>
   `,
@@ -148,11 +159,67 @@ import { CommonModule } from '@angular/common';
 })
 export class SearchPageComponent {
   activeTab: string = 'plate';
-  plateNumber: string = '6892';
-  
-  constructor(private router: Router) {}
-  
+  arabicLetters = [
+    { order: 1, english: 'A', arabic: 'أ' },
+    { order: 2, english: 'B', arabic: 'ب' },
+    { order: 3, english: 'H', arabic: 'ح' },
+    { order: 4, english: 'D', arabic: 'د' },
+    { order: 5, english: 'R', arabic: 'ر' },
+    { order: 6, english: 'S', arabic: 'س' },
+    { order: 7, english: 'X', arabic: 'ص' },
+    { order: 8, english: 'T', arabic: 'ط' },
+    { order: 9, english: 'G', arabic: 'ق' },
+    { order: 10, english: 'K', arabic: 'ك' },
+    { order: 11, english: 'L', arabic: 'ل' },
+    { order: 12, english: 'M', arabic: 'م' },
+    { order: 13, english: 'N', arabic: 'ن' },
+    { order: 14, english: 'V', arabic: 'هـ' },
+    { order: 15, english: 'W', arabic: 'و' },
+    { order: 16, english: 'Y', arabic: 'ي' }
+  ];
+  form: FormGroup;
+  user: any = null;
+  errorMsg: string = '';
+  constructor(private router: Router, private http: HttpClient, private snackBar: MatSnackBar) {
+    this.form = new FormGroup({
+      plateNumber: new FormControl('6892'),
+      plateLetter1: new FormControl('أ'),
+      plateLetter2: new FormControl('أ'),
+      plateLetter3: new FormControl('أ'),
+      serialNumber: new FormControl(''),
+      chassisNumber: new FormControl('')
+    });
+  }
   search() {
-    this.router.navigate(['/result']);
+    this.errorMsg = '';
+    if (this.form.invalid) {
+      this.snackBar.open('يرجى إدخال جميع البيانات المطلوبة.', 'إغلاق', { duration: 3000 });
+      return;
+    }
+
+    const searchCriteria = { ...this.form.value };
+    this.http.get<any[]>('/assets/vehicle-data.json').subscribe({
+      next: data => {
+        let foundUser = null;
+        if (this.activeTab === 'plate') {
+          foundUser = data.find(u =>
+            u.plateNumberArabic === searchCriteria.plateNumber &&
+            JSON.stringify(u.plateLettersArabic) === JSON.stringify([searchCriteria.plateLetter1, searchCriteria.plateLetter2, searchCriteria.plateLetter3])
+          );
+        } else if (this.activeTab === 'serial') {
+          foundUser = data.find(u => u.serialNumber === searchCriteria.serialNumber);
+        } else if (this.activeTab === 'chassis') {
+          foundUser = data.find(u => u.chassisNumber === searchCriteria.chassisNumber);
+        }
+        if (foundUser) {
+          this.router.navigate(['/result', foundUser.id]);
+        } else {
+          this.snackBar.open('لم يتم العثور على بيانات مطابقة.', 'إغلاق', { duration: 3000 });
+        }
+      },
+      error: err => {
+        this.snackBar.open('حدث خطأ أثناء جلب البيانات.', 'إغلاق', { duration: 3000 });
+      }
+    });
   }
 }
