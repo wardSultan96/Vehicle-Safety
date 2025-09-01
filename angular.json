@@ -36,8 +36,11 @@
             "polyfills": [
               "zone.js"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.rtl.min.css",
               "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/global_styles.css"
             ],

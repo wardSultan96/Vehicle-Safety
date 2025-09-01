@@ -15,33 +15,42 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
           <span>صالح وساري</span>
         </div>
         <div class="plate-number-display info-row">
-          <div class="plate-box">{{user.plateNumberArabic}} {{user.plateLettersEnglish.join('')}}</div>
+          <div class="plate-box">{{user.plateNumberEnglish}}{{user.plateLettersEnglish.join('')}}</div>
         </div>
         <div class="vehicle-info">
-          <div class="info-row">
-            <div class="info-label text-color">رقم الهيكل:</div>
-            <div class="info-value text-color-value">{{user.chassisNumber}}</div>
-          </div>
-          <div class="info-row">
-            <div class="info-label text-color">الشركة الصانعة:</div>
-            <div class="info-value text-color-value">{{user.company}}</div>
-          </div>
-          <div class="info-row">
-            <div class="info-label text-color">نوع السيارة:</div>
-            <div class="info-value text-color-value">{{user.vehicleType}}</div>
-          </div>
-          <div class="info-row">
-            <div class="info-label text-color">المالك:</div>
-            <div class="info-value text-color-value">{{user.owner}}</div>
-          </div>
-          <div class="info-row">
-            <div class="info-label text-color">الرقم التسلسلي:</div>
-            <div class="info-value text-color-value">{{user.serialNumber}}</div>
-          </div>
-          <div class="info-row">
-            <div class="info-label text-color">سنة الصنع:</div>
-            <div class="info-value text-color-value">{{user.yearOfManufacture}}</div>
-          </div>
+            <div class="info-row row">
+              <div class="col-6  info-label text-color">رقم الهيكل: </div>
+              <div class="col-6 text-color-value  ">{{user.chassisNumber}}</div>
+            </div>
+            <div class="info-row">
+              <div class="info-label text-color">الشركة الصانعة: </div>
+              <div class="text-color-value ">{{user.company}}</div>
+            </div>
+            <div class="info-row">
+              <div class="col-6 info-label text-color">نوع السيارة: </div>
+              <div class="col-6 text-color-value">{{user.vehicleType}}</div>
+            </div>
+             <div class="info-row">
+              <div class="col-6 info-label text-color">تاريخ الفحص: </div>
+              <div class="col-6 text-color-value">{{user.inspectionDate}}</div>
+            </div>
+            
+            <div class="info-row">
+              <div class="col-6 info-label text-color">مركز الفحص: </div>
+              <div class="col-6 text-color-value">{{user.inspectionCenter}}</div>
+            </div>
+            <div class="info-row">
+              <div class="col-6 info-label text-color">المالك: </div>
+              <div class="col-6 text-color-value">{{user.owner}}</div>
+            </div>
+            <div class="info-row">
+              <div class="col-6 info-label text-color">الرقم التسلسلي: </div>
+              <div class="col-6  text-color-value">{{user.serialNumber}}</div>
+            </div>
+            <div class="info-row row">
+              <div class="col-6 info-label text-color"> تاريخ انتهاء صلاحية الفحص: </div>
+              <div class="col-6 text-color-value" >{{user.inspectionExpiryDate}}</div>
+            </div>
         </div>
         <div class="search-button">
           <button class="btn btn-primary full-width" (click)="goBack()">رجوع</button>
@@ -78,8 +87,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     }
     
     .info-row {
-      display: flex;
-      padding: 12px 0;
       border-bottom: 1px solid #eee;
     }
     
@@ -90,8 +97,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     }
     
     .info-value {
-   
-      text-align: right;
+      display:flex;
+      justify-content:center;
     }
     
     .search-button {

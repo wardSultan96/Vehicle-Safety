@@ -41,13 +41,13 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
             <p class="form-label">رقم اللوحة</p>
             <div class="plate-inputs">
               <select class="form-control plate-letters" formControlName="plateLetter1">
-                <option *ngFor="let letter of arabicLetters" [value]="letter.arabic">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
+                <option *ngFor="let letter of arabicLetters" [value]="letter.english">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
               </select>
               <select class="form-control plate-prefix" formControlName="plateLetter2">
-                <option *ngFor="let letter of arabicLetters" [value]="letter.arabic">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
+                <option *ngFor="let letter of arabicLetters" [value]="letter.english">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
               </select>
               <select class="form-control plate-prefix" formControlName="plateLetter3">
-                <option *ngFor="let letter of arabicLetters" [value]="letter.arabic">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
+                <option *ngFor="let letter of arabicLetters" [value]="letter.english">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
               </select>
               <input type="text" class="form-control plate-number" placeholder="6892" formControlName="plateNumber" />
             </div>
@@ -183,19 +183,16 @@ export class SearchPageComponent {
   constructor(private router: Router, private http: HttpClient, private snackBar: MatSnackBar) {
     this.form = new FormGroup({
       plateNumber: new FormControl('6892'),
-      plateLetter1: new FormControl('أ'),
-      plateLetter2: new FormControl('أ'),
-      plateLetter3: new FormControl('أ'),
+      plateLetter1: new FormControl('A'),
+      plateLetter2: new FormControl('A'),
+      plateLetter3: new FormControl('A'),
       serialNumber: new FormControl(''),
       chassisNumber: new FormControl('')
     });
   }
   search() {
     this.errorMsg = '';
-    if (this.form.invalid) {
-      this.snackBar.open('يرجى إدخال جميع البيانات المطلوبة.', 'إغلاق', { duration: 3000 });
-      return;
-    }
+  
 
     const searchCriteria = { ...this.form.value };
     console.log("searchCriteria:", searchCriteria);
@@ -203,13 +200,13 @@ export class SearchPageComponent {
       next: data => {
         let foundUser = null;
         if (this.activeTab === 'plate') {
-      
+   
           foundUser = data.find(u =>
-            u.plateNumberArabic === searchCriteria.plateNumber &&
-            u.plateLettersArabic.length === 3 &&
-            u.plateLettersArabic[0] === searchCriteria.plateLetter1 &&
-            u.plateLettersArabic[1] === searchCriteria.plateLetter2 &&
-            u.plateLettersArabic[2] === searchCriteria.plateLetter3
+            u.plateNumberEnglish === searchCriteria.plateNumber &&
+            u.plateLettersEnglish.length === 3 &&
+            u.plateLettersEnglish[0] === searchCriteria.plateLetter1 &&
+            u.plateLettersEnglish[1] === searchCriteria.plateLetter2 &&
+            u.plateLettersEnglish[2] === searchCriteria.plateLetter3
           );
         } else if (this.activeTab === 'serial') {
              

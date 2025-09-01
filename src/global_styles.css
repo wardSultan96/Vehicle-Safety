@@ -143,7 +143,7 @@ body {
 }
 
 .bordered-container {
-  border: 2px solid #60a544;
+  border: 4px solid #60a544;
   border-radius: 8px;
   padding: 30px;
   width: 20%;
@@ -175,27 +175,10 @@ body {
 
 
 .text-color-value{
+
     color: black;
-    font-weight: 525;
-    margin: 0 1rem;
+    font-weight: 500;
+    margin: 0 auto;
 }
 
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  .bordered-container {
-    padding: 15px;
-  }
-  
-  .info-row {
-    flex-direction: column;
-  }
-  
-  .info-label, .info-value {
-    flex: 0 0 100%;
-  }
-  
-  .info-label {
-    margin-bottom: 5px;
-  }
-}
