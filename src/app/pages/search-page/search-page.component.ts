@@ -49,7 +49,7 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
               <select class="form-control plate-prefix" formControlName="plateLetter3">
                 <option *ngFor="let letter of arabicLetters" [value]="letter.english">{{letter.order}} - {{letter.english}} - {{letter.arabic}}</option>
               </select>
-              <input type="text" class="form-control plate-number" placeholder="6892" formControlName="plateNumber" />
+              <input type="text" class="form-control plate-number" placeholder="" formControlName="plateNumber" />
             </div>
           </div>
           
@@ -182,7 +182,7 @@ export class SearchPageComponent {
   errorMsg: string = '';
   constructor(private router: Router, private http: HttpClient, private snackBar: MatSnackBar) {
     this.form = new FormGroup({
-      plateNumber: new FormControl('6892'),
+      plateNumber: new FormControl(''),
       plateLetter1: new FormControl('A'),
       plateLetter2: new FormControl('A'),
       plateLetter3: new FormControl('A'),
