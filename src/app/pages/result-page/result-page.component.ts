@@ -39,10 +39,10 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
               <div class="col-6 info-label text-color">مركز الفحص: </div>
               <div class="col-6 text-color-value">{{user.inspectionCenter}}</div>
             </div>
-            <div class="info-row">
+            <!-- <div class="info-row">
               <div class="col-6 info-label text-color">المالك: </div>
               <div class="col-6 text-color-value">{{user.owner}}</div>
-            </div>
+            </div> -->
             <div class="info-row">
               <div class="col-6 info-label text-color">الرقم التسلسلي: </div>
               <div class="col-6  text-color-value">{{user.serialNumber}}</div>
