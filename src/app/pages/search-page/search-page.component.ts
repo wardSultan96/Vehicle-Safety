@@ -192,37 +192,34 @@ export class SearchPageComponent {
   }
   search() {
     this.errorMsg = '';
-  
 
-    const searchCriteria = { ...this.form.value };
-    console.log("searchCriteria:", searchCriteria);
+    const { plateNumber, serialNumber, chassisNumber } = this.form.value as any;
+
+    const pn = (plateNumber || '').trim();
+    const sn = (serialNumber || '').trim();
+    const cn = (chassisNumber || '').trim();
+
+    if (!pn && !sn && !cn) {
+      this.snackBar.open('الرجاء إدخال قيمة واحدة على الأقل للبحث (رقم اللوحة أو الرقم التسلسلي أو رقم الهيكل).', 'إغلاق', { duration: 3000 });
+      return;
+    }
+
     this.http.get<any[]>('/assets/vehicle-data.json').subscribe({
       next: data => {
-        let foundUser = null;
-        if (this.activeTab === 'plate') {
-   
-          foundUser = data.find(u =>
-            u.plateNumberEnglish === searchCriteria.plateNumber &&
-            u.plateLettersEnglish.length === 3 &&
-            u.plateLettersEnglish[0] === searchCriteria.plateLetter1 &&
-            u.plateLettersEnglish[1] === searchCriteria.plateLetter2 &&
-            u.plateLettersEnglish[2] === searchCriteria.plateLetter3
-          );
-        } else if (this.activeTab === 'serial') {
-             
-          foundUser = data.find(u => u.serialNumber === searchCriteria.serialNumber);
-        } else if (this.activeTab === 'chassis') {
-         
-          foundUser = data.find(u => u.chassisNumber === searchCriteria.chassisNumber);
-        }
+        const foundUser = data.find(u => {
+          if (pn && u.plateNumberEnglish !== pn) return false;
+          if (sn && u.serialNumber !== sn) return false;
+          if (cn && u.chassisNumber !== cn) return false;
+          return true;
+        });
+
         if (foundUser) {
-       
           this.router.navigate(['/result', foundUser.id]);
         } else {
           this.snackBar.open('لم يتم العثور على بيانات مطابقة.', 'إغلاق', { duration: 3000 });
         }
       },
-      error: err => {
+      error: () => {
         this.snackBar.open('حدث خطأ أثناء جلب البيانات.', 'إغلاق', { duration: 3000 });
       }
     });
