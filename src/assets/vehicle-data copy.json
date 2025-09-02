@@ -1,5 +1,5 @@
 [
-  {
+   {
     "id": 1,
     "owner": "مؤسسة الاسهد للنقل المدرسي",
     "chassisNumber": "LFZ6DADD5KBX00550",
@@ -11,12 +11,13 @@
     "serialNumber": "756310710",
     "vehicleType": "ميني فان",
     "yearOfManufacture": "2019",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
 
-  {
+,
+   {
     "id": 2,
     "owner": "مؤسسة الاسهد للنقل المدرسي ",
     "chassisNumber": "LFZ6DADD9KBX00549",
@@ -28,10 +29,11 @@
     "serialNumber": "335310710",
     "vehicleType": "ميني فان",
     "yearOfManufacture": "2019",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+  ,
   {
     "id": 3,
     "owner": "مؤسسة الاسهد للنقل المدرسي ",
@@ -44,10 +46,11 @@
     "serialNumber": "165030710",
     "vehicleType": "ميني فان",
     "yearOfManufacture": "2019",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 4,
     "owner": "مؤسسة الاسهد للنقل المدرسي ",
@@ -60,10 +63,11 @@
     "serialNumber": "955310710",
     "vehicleType": "ميني فان",
     "yearOfManufacture": "2019",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 5,
     "owner": "مؤسسة الاسهد للمقاولات  ",
@@ -76,10 +80,11 @@
     "serialNumber": "996310710",
     "vehicleType": "ميني فان",
     "yearOfManufacture": "2019",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 6,
     "owner": "شركة السيارات الغربيه المحدوده ",
@@ -92,10 +97,11 @@
     "serialNumber": "812956510",
     "vehicleType": " حافلة",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 7,
     "owner": "شركة فافلتي ",
@@ -108,10 +114,11 @@
     "serialNumber": "707437410",
     "vehicleType": "باص",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
   },
+
   {
     "id": 8,
     "owner": "عثمان عبيد بن سالم الغيداني  ",
@@ -124,10 +131,11 @@
     "serialNumber": "137055410",
     "vehicleType": "باص",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 9,
     "owner": "شركة فافلتي ",
@@ -140,10 +148,11 @@
     "serialNumber": "638200710",
     "vehicleType": "باص",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 10,
     "owner": "شركة فافلتي ",
@@ -156,10 +165,11 @@
     "serialNumber": "428200710",
     "vehicleType": "باص",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 11,
     "owner": "شركة فافلتي ",
@@ -172,10 +182,11 @@
     "serialNumber": "59827410",
     "vehicleType": "باص",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 12,
     "owner": "شركة السيارات الغربيه المحدوده ",
@@ -188,10 +199,11 @@
     "serialNumber": "342656510",
     "vehicleType": " حافلة",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 13,
     "owner": "شركة السيارات الغربيه المحدوده ",
@@ -204,10 +216,11 @@
     "serialNumber": "152656510",
     "vehicleType": " حافلة",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 14,
     "owner": "شركة السيارات الغربيه المحدوده ",
@@ -220,10 +233,11 @@
     "serialNumber": "381956510",
     "vehicleType": " حافلة",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 15,
     "owner": "موسم صالح رزيق القثامي ",
@@ -236,10 +250,11 @@
     "serialNumber": "745480410",
     "vehicleType": " حافله",
     "yearOfManufacture": "2012",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 16,
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
@@ -252,10 +267,11 @@
     "serialNumber": "481596010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 17,
     "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
@@ -268,10 +284,11 @@
     "serialNumber": "808496010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 18,
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
@@ -284,10 +301,11 @@
     "serialNumber": "418496010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 19,
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
@@ -300,10 +318,11 @@
     "serialNumber": "438496010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 20,
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
@@ -316,10 +335,11 @@
     "serialNumber": "548496010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 21,
     "owner": "فرع شركة لاندمارك العربية المحدودة ",
@@ -332,10 +352,11 @@
     "serialNumber": "693550900",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2009",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 22,
     "owner": "شركة العزيزيه بنده المتحده  ",
@@ -348,10 +369,11 @@
     "serialNumber": "614217010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 23,
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
@@ -364,10 +386,11 @@
     "serialNumber": "34954010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 24,
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
@@ -380,10 +403,11 @@
     "serialNumber": "77680010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2010",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 25,
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
@@ -396,10 +420,11 @@
     "serialNumber": "955840010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2010",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 26,
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
@@ -412,10 +437,11 @@
     "serialNumber": "645982010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 27,
     "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
@@ -428,10 +454,11 @@
     "serialNumber": "718496010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 28,
     "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
@@ -444,10 +471,11 @@
     "serialNumber": "167496010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "04/09/2026",
-    "inspectionDate": "04/09/2025",
+    "inspectionExpiryDate": "24/08/2026",
+    "inspectionDate": "24/08/2025",
     "inspectionCenter": "المجمعة"
-  },
+  }
+,
   {
     "id": 29,
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
@@ -460,10 +488,11 @@
     "serialNumber": "278840010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2010",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 30,
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
@@ -476,10 +505,11 @@
     "serialNumber": "336701010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2010",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 31,
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
@@ -492,10 +522,11 @@
     "serialNumber": "125982010",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
-    "inspectionExpiryDate": "03/09/2026",
-    "inspectionDate": "03/09/2025",
+    "inspectionExpiryDate": "23/08/2026",
+    "inspectionDate": "23/08/2025",
     "inspectionCenter": "القصيم"
-  },
+  }
+,
   {
     "id": 32,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -508,11 +539,12 @@
     "serialNumber": "342608110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
 
+,
   {
     "id": 33,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -525,11 +557,12 @@
     "serialNumber": "302608110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
 
+,
   {
     "id": 34,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -542,10 +575,12 @@
     "serialNumber": "551608110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
+
   {
     "id": 35,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -558,10 +593,12 @@
     "serialNumber": "880608110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
+
   {
     "id": 36,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -574,10 +611,12 @@
     "serialNumber": "458508110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
+
   {
     "id": 37,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -590,11 +629,12 @@
     "serialNumber": "749508110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
 
+,
   {
     "id": 38,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -607,11 +647,12 @@
     "serialNumber": "859508110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
 
+,
   {
     "id": 39,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -624,10 +665,11 @@
     "serialNumber": "14218110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 40,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -640,10 +682,11 @@
     "serialNumber": "962218110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 41,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -656,10 +699,11 @@
     "serialNumber": "155218110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 42,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -672,10 +716,11 @@
     "serialNumber": "310318110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 43,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -688,10 +733,11 @@
     "serialNumber": "150318110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 44,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -704,10 +750,11 @@
     "serialNumber": "381318110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 45,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -720,10 +767,11 @@
     "serialNumber": "63318110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 46,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -736,10 +784,11 @@
     "serialNumber": "836318110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 47,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
@@ -752,10 +801,11 @@
     "serialNumber": "486318110",
     "vehicleType": " حافلة كبيرة ",
     "yearOfManufacture": "2013",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
-  },
+  }
+,
   {
     "id": 48,
     "owner": "شركة فافلتي ",
@@ -768,8 +818,9 @@
     "serialNumber": "89037410",
     "vehicleType": "باص",
     "yearOfManufacture": "2016",
-    "inspectionExpiryDate": "02/09/2026",
-    "inspectionDate": "02/09/2025",
+    "inspectionExpiryDate": "21/08/2026",
+    "inspectionDate": "21/08/2025",
     "inspectionCenter": "الرس"
   }
+
 ]
