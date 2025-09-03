@@ -771,5 +771,21 @@
     "inspectionExpiryDate": "02/09/2026",
     "inspectionDate": "02/09/2025",
     "inspectionCenter": "الرس"
+  },
+  {
+    "id": 49,
+    "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
+    "chassisNumber": "JL5B3G6P0BRJ10862",
+    "plateNumberArabic": "٥٧٩٢",
+    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateNumberEnglish": "5795",
+    "plateLettersEnglish": ["T", "K", "A"],
+    "company": "  متسوبيشي",
+    "serialNumber": "808496010",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
   }
 ]
