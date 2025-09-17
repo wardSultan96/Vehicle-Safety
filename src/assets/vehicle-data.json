@@ -4,9 +4,17 @@
     "owner": "مؤسسة الاسهد للنقل المدرسي",
     "chassisNumber": "LFZ6DADD5KBX00550",
     "plateNumberArabic": "٨٨١٤",
-    "plateLettersArabic": ["أ", "ر", "أ"],
+    "plateLettersArabic": [
+      "أ",
+      "ر",
+      "أ"
+    ],
     "plateNumberEnglish": "8814",
-    "plateLettersEnglish": ["A", "R", "A"],
+    "plateLettersEnglish": [
+      "A",
+      "R",
+      "A"
+    ],
     "company": "فيوجان",
     "serialNumber": "756310710",
     "vehicleType": "ميني فان",
@@ -15,15 +23,22 @@
     "inspectionDate": "03/09/2025",
     "inspectionCenter": "القصيم"
   },
-
   {
     "id": 2,
     "owner": "مؤسسة الاسهد للنقل المدرسي ",
     "chassisNumber": "LFZ6DADD9KBX00549",
     "plateNumberArabic": "٨٨١٢",
-    "plateLettersArabic": ["أ", "ر", "أ"],
+    "plateLettersArabic": [
+      "أ",
+      "ر",
+      "أ"
+    ],
     "plateNumberEnglish": "8812",
-    "plateLettersEnglish": ["A", "R", "A"],
+    "plateLettersEnglish": [
+      "A",
+      "R",
+      "A"
+    ],
     "company": "فيوجان",
     "serialNumber": "335310710",
     "vehicleType": "ميني فان",
@@ -37,9 +52,17 @@
     "owner": "مؤسسة الاسهد للنقل المدرسي ",
     "chassisNumber": "LFZ6DADD2KBX00554",
     "plateNumberArabic": "٧٣٣١",
-    "plateLettersArabic": ["أ", "ر", "أ"],
+    "plateLettersArabic": [
+      "أ",
+      "ر",
+      "أ"
+    ],
     "plateNumberEnglish": "7331",
-    "plateLettersEnglish": ["A", "R", "A"],
+    "plateLettersEnglish": [
+      "A",
+      "R",
+      "A"
+    ],
     "company": "فيوجان",
     "serialNumber": "165030710",
     "vehicleType": "ميني فان",
@@ -53,9 +76,17 @@
     "owner": "مؤسسة الاسهد للنقل المدرسي ",
     "chassisNumber": "LFZ6DADD7KBX00551",
     "plateNumberArabic": "٨٨٠٤",
-    "plateLettersArabic": ["أ", "ر", "أ"],
+    "plateLettersArabic": [
+      "أ",
+      "ر",
+      "أ"
+    ],
     "plateNumberEnglish": "8804",
-    "plateLettersEnglish": ["A", "R", "A"],
+    "plateLettersEnglish": [
+      "A",
+      "R",
+      "A"
+    ],
     "company": " فيوجان",
     "serialNumber": "955310710",
     "vehicleType": "ميني فان",
@@ -69,9 +100,17 @@
     "owner": "مؤسسة الاسهد للمقاولات  ",
     "chassisNumber": "LFZ6DADD5KBX00547",
     "plateNumberArabic": "٨٨٤٣",
-    "plateLettersArabic": ["أ", "ر", "أ"],
+    "plateLettersArabic": [
+      "أ",
+      "ر",
+      "أ"
+    ],
     "plateNumberEnglish": "8843",
-    "plateLettersEnglish": ["A", "R", "A"],
+    "plateLettersEnglish": [
+      "A",
+      "R",
+      "A"
+    ],
     "company": " فيوجان",
     "serialNumber": "996310710",
     "vehicleType": "ميني فان",
@@ -85,9 +124,17 @@
     "owner": "شركة السيارات الغربيه المحدوده ",
     "chassisNumber": "MB1PAEHD4GUXA5083",
     "plateNumberArabic": "٣٣٢٤",
-    "plateLettersArabic": ["ط", "ح", "ب"],
+    "plateLettersArabic": [
+      "ط",
+      "ح",
+      "ب"
+    ],
     "plateNumberEnglish": "3324",
-    "plateLettersEnglish": ["T", "J", "B"],
+    "plateLettersEnglish": [
+      "T",
+      "J",
+      "B"
+    ],
     "company": " اشوك ليلاند",
     "serialNumber": "812956510",
     "vehicleType": " حافلة",
@@ -101,9 +148,17 @@
     "owner": "شركة فافلتي ",
     "chassisNumber": "LFZ6DADD7KBX00551",
     "plateNumberArabic": "٤٨٩٣",
-    "plateLettersArabic": ["ص", "ب", "أ"],
+    "plateLettersArabic": [
+      "ص",
+      "ب",
+      "أ"
+    ],
     "plateNumberEnglish": "4893",
-    "plateLettersEnglish": ["X", "B", "A"],
+    "plateLettersEnglish": [
+      "X",
+      "B",
+      "A"
+    ],
     "company": " زونج تونج",
     "serialNumber": "707437410",
     "vehicleType": "باص",
@@ -117,9 +172,17 @@
     "owner": "عثمان عبيد بن سالم الغيداني  ",
     "chassisNumber": "LDY6GS7E5G0000031",
     "plateNumberArabic": "٧٤٦٦",
-    "plateLettersArabic": ["ص", "ب", "أ"],
+    "plateLettersArabic": [
+      "ص",
+      "ب",
+      "أ"
+    ],
     "plateNumberEnglish": "7466",
-    "plateLettersEnglish": ["X", "B", "A"],
+    "plateLettersEnglish": [
+      "X",
+      "B",
+      "A"
+    ],
     "company": " زونج تونج",
     "serialNumber": "137055410",
     "vehicleType": "باص",
@@ -133,9 +196,17 @@
     "owner": "شركة فافلتي ",
     "chassisNumber": "LDY6GS9D7D0000001",
     "plateNumberArabic": "٤٨٩٣",
-    "plateLettersArabic": ["ح", "د", "ب"],
+    "plateLettersArabic": [
+      "ح",
+      "د",
+      "ب"
+    ],
     "plateNumberEnglish": "5205",
-    "plateLettersEnglish": ["J", "D", "B"],
+    "plateLettersEnglish": [
+      "J",
+      "D",
+      "B"
+    ],
     "company": " زونج تونج",
     "serialNumber": "638200710",
     "vehicleType": "باص",
@@ -149,9 +220,17 @@
     "owner": "شركة فافلتي ",
     "chassisNumber": "LDY6GS9D8D0000010",
     "plateNumberArabic": "٥٢٢١",
-    "plateLettersArabic": ["ح", "د", "ب"],
+    "plateLettersArabic": [
+      "ح",
+      "د",
+      "ب"
+    ],
     "plateNumberEnglish": "5221",
-    "plateLettersEnglish": ["J", "D", "B"],
+    "plateLettersEnglish": [
+      "J",
+      "D",
+      "B"
+    ],
     "company": " زونج تونج",
     "serialNumber": "428200710",
     "vehicleType": "باص",
@@ -165,9 +244,17 @@
     "owner": "شركة فافلتي ",
     "chassisNumber": "LDY6GS7EXG0000235",
     "plateNumberArabic": "٤٨٦٩",
-    "plateLettersArabic": ["ص", "ب", "أ"],
+    "plateLettersArabic": [
+      "ص",
+      "ب",
+      "أ"
+    ],
     "plateNumberEnglish": "4869",
-    "plateLettersEnglish": ["X", "B", "A"],
+    "plateLettersEnglish": [
+      "X",
+      "B",
+      "A"
+    ],
     "company": " زونج تونج",
     "serialNumber": "59827410",
     "vehicleType": "باص",
@@ -181,9 +268,17 @@
     "owner": "شركة السيارات الغربيه المحدوده ",
     "chassisNumber": "MB1PAEHD2GUXA5101",
     "plateNumberArabic": "٥١٧١",
-    "plateLettersArabic": ["أ", "ح", "ب"],
+    "plateLettersArabic": [
+      "أ",
+      "ح",
+      "ب"
+    ],
     "plateNumberEnglish": "5171",
-    "plateLettersEnglish": ["A", "J", "B"],
+    "plateLettersEnglish": [
+      "A",
+      "J",
+      "B"
+    ],
     "company": " اشوك ليلاند",
     "serialNumber": "342656510",
     "vehicleType": " حافلة",
@@ -197,9 +292,17 @@
     "owner": "شركة السيارات الغربيه المحدوده ",
     "chassisNumber": "MB1PAEHD1GUXA5171",
     "plateNumberArabic": "٥١٧٠",
-    "plateLettersArabic": ["أ", "ح", "ب"],
+    "plateLettersArabic": [
+      "أ",
+      "ح",
+      "ب"
+    ],
     "plateNumberEnglish": "5170",
-    "plateLettersEnglish": ["A", "J", "B"],
+    "plateLettersEnglish": [
+      "A",
+      "J",
+      "B"
+    ],
     "company": " اشوك ليلاند",
     "serialNumber": "152656510",
     "vehicleType": " حافلة",
@@ -213,9 +316,17 @@
     "owner": "شركة السيارات الغربيه المحدوده ",
     "chassisNumber": "MB1PAEHD2GUXA5082",
     "plateNumberArabic": "٣٣٢٠",
-    "plateLettersArabic": ["ط", "ح", "ب"],
+    "plateLettersArabic": [
+      "ط",
+      "ح",
+      "ب"
+    ],
     "plateNumberEnglish": "3320",
-    "plateLettersEnglish": ["T", "J", "B"],
+    "plateLettersEnglish": [
+      "T",
+      "J",
+      "B"
+    ],
     "company": " اشوك ليلاند",
     "serialNumber": "381956510",
     "vehicleType": " حافلة",
@@ -229,9 +340,17 @@
     "owner": "موسم صالح رزيق القثامي ",
     "chassisNumber": "KMJHG17CXCC053354",
     "plateNumberArabic": "٥٦٢٨",
-    "plateLettersArabic": ["ص", "و", "أ"],
+    "plateLettersArabic": [
+      "ص",
+      "و",
+      "أ"
+    ],
     "plateNumberEnglish": "5628",
-    "plateLettersEnglish": ["X", "U", "A"],
+    "plateLettersEnglish": [
+      "X",
+      "U",
+      "A"
+    ],
     "company": "  هونداي",
     "serialNumber": "745480410",
     "vehicleType": " حافله",
@@ -245,9 +364,17 @@
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
     "chassisNumber": "JL5B3G6P3BRJ10872",
     "plateNumberArabic": "٥٧٨٩",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5789",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "481596010",
     "vehicleType": " باص روزا",
@@ -261,9 +388,17 @@
     "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
     "chassisNumber": "JL5B3G6PXBRJ10867",
     "plateNumberArabic": "٥٧٩٢",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5792",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "808496010",
     "vehicleType": " باص روزا",
@@ -277,9 +412,17 @@
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
     "chassisNumber": "JL5B3G6P6BRJ10865",
     "plateNumberArabic": "٥٧٩٤",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5794",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "418496010",
     "vehicleType": " باص روزا",
@@ -293,9 +436,17 @@
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
     "chassisNumber": "JL5B3G6P4BRJ10864",
     "plateNumberArabic": "٥٧٩٧",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5797",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "438496010",
     "vehicleType": " باص روزا",
@@ -309,9 +460,17 @@
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
     "chassisNumber": "JL5B3G6P7BRJ10860",
     "plateNumberArabic": "٥٨٠١",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5801",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "548496010",
     "vehicleType": " باص روزا",
@@ -325,9 +484,17 @@
     "owner": "فرع شركة لاندمارك العربية المحدودة ",
     "chassisNumber": "JL5B3G6P09PG00338",
     "plateNumberArabic": "٥٨٣٧",
-    "plateLettersArabic": ["ي", "د", "أ"],
+    "plateLettersArabic": [
+      "ي",
+      "د",
+      "أ"
+    ],
     "plateNumberEnglish": "5837",
-    "plateLettersEnglish": ["V", "D", "A"],
+    "plateLettersEnglish": [
+      "V",
+      "D",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "693550900",
     "vehicleType": " باص روزا",
@@ -341,9 +508,17 @@
     "owner": "شركة العزيزيه بنده المتحده  ",
     "chassisNumber": "JL5B3G6P0BRJ10280",
     "plateNumberArabic": "٥٩١٣",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5913",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "614217010",
     "vehicleType": " باص روزا",
@@ -357,9 +532,17 @@
     "owner": "عبدالله بن شجاع بن براك العتيبي ",
     "chassisNumber": "JL5B3G6P7BRJ10211",
     "plateNumberArabic": "٦٥٧٨",
-    "plateLettersArabic": ["د", "ك", "أ"],
+    "plateLettersArabic": [
+      "د",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "6578",
-    "plateLettersEnglish": ["D", "K", "A"],
+    "plateLettersEnglish": [
+      "D",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "34954010",
     "vehicleType": " باص روزا",
@@ -373,9 +556,17 @@
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
     "chassisNumber": "JL5B3G6P5APH00276",
     "plateNumberArabic": "٧٦٣٠",
-    "plateLettersArabic": ["ب", "ح", "أ"],
+    "plateLettersArabic": [
+      "ب",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "7630",
-    "plateLettersEnglish": ["B", "J", "A"],
+    "plateLettersEnglish": [
+      "B",
+      "J",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "77680010",
     "vehicleType": " باص روزا",
@@ -389,9 +580,17 @@
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
     "chassisNumber": "JL5B3G6P4APH00284",
     "plateNumberArabic": "٧٦٢٩",
-    "plateLettersArabic": ["ب", "ح", "أ"],
+    "plateLettersArabic": [
+      "ب",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "7629",
-    "plateLettersEnglish": ["B", "J", "A"],
+    "plateLettersEnglish": [
+      "B",
+      "J",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "955840010",
     "vehicleType": " باص روزا",
@@ -405,9 +604,17 @@
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
     "chassisNumber": "JL5B3G6P2BRJ10040",
     "plateNumberArabic": "٥٦٥١",
-    "plateLettersArabic": ["ح", "ح", "أ"],
+    "plateLettersArabic": [
+      "ح",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "5651",
-    "plateLettersEnglish": ["J", "J", "A"],
+    "plateLettersEnglish": [
+      "J",
+      "J",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "645982010",
     "vehicleType": " باص روزا",
@@ -421,9 +628,17 @@
     "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
     "chassisNumber": "JL5B3G6P0BRJ10862",
     "plateNumberArabic": "٥٧٩٥",
-    "plateLettersArabic": ["ط", "ك", "أ"],
-    "plateNumberEnglish": "5792",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
+    "plateNumberEnglish": "5795",
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "718496010",
     "vehicleType": " باص روزا",
@@ -437,9 +652,17 @@
     "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
     "chassisNumber": "JL5B3G6PXBRJ10853",
     "plateNumberArabic": "٥٨٠٤",
-    "plateLettersArabic": ["ط", "ك", "أ"],
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
     "plateNumberEnglish": "5804",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "167496010",
     "vehicleType": " باص روزا",
@@ -453,9 +676,17 @@
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
     "chassisNumber": "JL5B3G6P6APH00335",
     "plateNumberArabic": "٧٦٣٥",
-    "plateLettersArabic": ["ب", "ح", "أ"],
+    "plateLettersArabic": [
+      "ب",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "7635",
-    "plateLettersEnglish": ["B", "J", "A"],
+    "plateLettersEnglish": [
+      "B",
+      "J",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "278840010",
     "vehicleType": " باص روزا",
@@ -469,9 +700,17 @@
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
     "chassisNumber": "JL5B3G6PXAPH00418",
     "plateNumberArabic": "٨٠٢٢",
-    "plateLettersArabic": ["ب", "ح", "أ"],
+    "plateLettersArabic": [
+      "ب",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "8022",
-    "plateLettersEnglish": ["B", "J", "A"],
+    "plateLettersEnglish": [
+      "B",
+      "J",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "336701010",
     "vehicleType": " باص روزا",
@@ -485,9 +724,17 @@
     "owner": "مؤسسة العيساني للتجارة شركة تضامنية  ",
     "chassisNumber": "JL5B3G6P5BRJ10547",
     "plateNumberArabic": "٥٥٩٦",
-    "plateLettersArabic": ["ح", "ح", "أ"],
+    "plateLettersArabic": [
+      "ح",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "5596",
-    "plateLettersEnglish": ["J", "J", "A"],
+    "plateLettersEnglish": [
+      "J",
+      "J",
+      "A"
+    ],
     "company": "  متسوبيشي",
     "serialNumber": "125982010",
     "vehicleType": " باص روزا",
@@ -501,9 +748,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH1DB300135",
     "plateNumberArabic": "١٥٠١",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1501",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "342608110",
     "vehicleType": " حافلة كبيرة ",
@@ -512,15 +767,22 @@
     "inspectionDate": "02/09/2025",
     "inspectionCenter": "الرس"
   },
-
   {
     "id": 33,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH9DB300142",
     "plateNumberArabic": "١٥٠٤",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1504",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "302608110",
     "vehicleType": " حافلة كبيرة ",
@@ -529,15 +791,22 @@
     "inspectionDate": "02/09/2025",
     "inspectionCenter": "الرس"
   },
-
   {
     "id": 34,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH4DB300145",
     "plateNumberArabic": "١٥٠٦",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1506",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "551608110",
     "vehicleType": " حافلة كبيرة ",
@@ -551,9 +820,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH7DB300138",
     "plateNumberArabic": "١٥٠٩",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1509",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "880608110",
     "vehicleType": " حافلة كبيرة ",
@@ -567,9 +844,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH2DB300144",
     "plateNumberArabic": "١٥١٤",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1514",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "458508110",
     "vehicleType": " حافلة كبيرة ",
@@ -583,9 +868,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH4DB300128",
     "plateNumberArabic": "١٥١٧",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1517",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "749508110",
     "vehicleType": " حافلة كبيرة ",
@@ -594,15 +887,22 @@
     "inspectionDate": "02/09/2025",
     "inspectionCenter": "الرس"
   },
-
   {
     "id": 38,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LA6R1HSH8DB300147",
     "plateNumberArabic": "١٥١٨",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1518",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  كنج لونج",
     "serialNumber": "859508110",
     "vehicleType": " حافلة كبيرة ",
@@ -611,15 +911,22 @@
     "inspectionDate": "02/09/2025",
     "inspectionCenter": "الرس"
   },
-
   {
     "id": 39,
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE68D1000154",
     "plateNumberArabic": "١٥٨٣",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1583",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "14218110",
     "vehicleType": " حافلة كبيرة ",
@@ -633,9 +940,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE65D1000144",
     "plateNumberArabic": "١٥٩٣",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1593",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "962218110",
     "vehicleType": " حافلة كبيرة ",
@@ -649,9 +964,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE66D1000122",
     "plateNumberArabic": "١٦٠٠",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1600",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "155218110",
     "vehicleType": " حافلة كبيرة ",
@@ -665,9 +988,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE69D1000115",
     "plateNumberArabic": "١٦٠٥",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1605",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "310318110",
     "vehicleType": " حافلة كبيرة ",
@@ -681,9 +1012,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE61D1000142",
     "plateNumberArabic": "١٦٠٩",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1609",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "150318110",
     "vehicleType": " حافلة كبيرة ",
@@ -697,9 +1036,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE66D1000010",
     "plateNumberArabic": "١٦١٤",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1614",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "381318110",
     "vehicleType": " حافلة كبيرة ",
@@ -713,9 +1060,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE66D1000170",
     "plateNumberArabic": "١٦٣٣",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1633",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "63318110",
     "vehicleType": " حافلة كبيرة ",
@@ -729,9 +1084,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE62D1000151",
     "plateNumberArabic": "١٦٣٧",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1637",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "836318110",
     "vehicleType": " حافلة كبيرة ",
@@ -745,9 +1108,17 @@
     "owner": "شركة راحلتي للنقل المدرسي شركة شخص واحد   ",
     "chassisNumber": "LZYTAGE6XD1000141",
     "plateNumberArabic": "١٦٤٨",
-    "plateLettersArabic": ["ق", "ح", "أ"],
+    "plateLettersArabic": [
+      "ق",
+      "ح",
+      "أ"
+    ],
     "plateNumberEnglish": "1648",
-    "plateLettersEnglish": ["G", "J", "A"],
+    "plateLettersEnglish": [
+      "G",
+      "J",
+      "A"
+    ],
     "company": "  زهينقزو ",
     "serialNumber": "486318110",
     "vehicleType": " حافلة كبيرة ",
@@ -761,9 +1132,17 @@
     "owner": "شركة فافلتي ",
     "chassisNumber": "LDY6GS7E3G0000237",
     "plateNumberArabic": "٤٨٧٢",
-    "plateLettersArabic": ["ص", "ب", "أ"],
+    "plateLettersArabic": [
+      "ص",
+      "ب",
+      "أ"
+    ],
     "plateNumberEnglish": "4872",
-    "plateLettersEnglish": ["X", "B", "A"],
+    "plateLettersEnglish": [
+      "X",
+      "B",
+      "A"
+    ],
     "company": " زونج تونج",
     "serialNumber": "89037410",
     "vehicleType": "باص",
@@ -774,18 +1153,242 @@
   },
   {
     "id": 49,
-    "owner": "شركه الامد للتجاره والتموين لصاحبها فريدجارالله الحرازي وشرك  ",
-    "chassisNumber": "JL5B3G6P0BRJ10862",
-    "plateNumberArabic": "٥٧٩٢",
-    "plateLettersArabic": ["ط", "ك", "أ"],
-    "plateNumberEnglish": "5795",
-    "plateLettersEnglish": ["T", "K", "A"],
+    "owner": "شركة الامد السعودي لخدمات المطارات والنقل الجوي المساندة",
+    "chassisNumber": "JL5B3G6P2FRN20505",
+    "plateNumberArabic": "١٦٦٠",
+    "plateLettersArabic": [
+      "ق",
+      "أ",
+      "ب"
+    ],
+    "plateNumberEnglish": "1660",
+    "plateLettersEnglish": [
+      "G",
+      "A",
+      "B"
+    ],
     "company": "  متسوبيشي",
-    "serialNumber": "808496010",
+    "serialNumber": "976826410",
     "vehicleType": " باص روزا",
     "yearOfManufacture": "2011",
     "inspectionExpiryDate": "04/09/2026",
     "inspectionDate": "04/09/2025",
     "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 50,
+    "owner": "شركة مطاعم قدوره المحدوده",
+    "chassisNumber": "JL5B3G6P6BRJ10302",
+    "plateNumberArabic": "٣٦٠١",
+    "plateLettersArabic": [
+      "د",
+      "ق",
+      "أ"
+    ],
+    "plateNumberEnglish": "3601",
+    "plateLettersEnglish": [
+      "D",
+      "G",
+      "A"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "307404010",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 51,
+    "owner": "شركة الامد السعودي لخدمات المطارات والنقل الجوي المساندة",
+    "chassisNumber": "JL5B3G6P7FRN20015",
+    "plateNumberArabic": "٢٧٧١",
+    "plateLettersArabic": [
+      "ل",
+      "أ",
+      "ب"
+    ],
+    "plateNumberEnglish": "2771",
+    "plateLettersEnglish": [
+      "L",
+      "A",
+      "B"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "341147410",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 52,
+    "owner": "شركة الامد السعودي لخدمات المطارات والنقل المساند مساهمة مقفلة",
+    "chassisNumber": "JL5B3G6P2FRN20018",
+    "plateNumberArabic": "٩٧٨٥",
+    "plateLettersArabic": [
+      "ل",
+      "ب",
+      "ب"
+    ],
+    "plateNumberEnglish": "9785",
+    "plateLettersEnglish": [
+      "L",
+      "B",
+      "B"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "483872510",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 53,
+    "owner": "شركة العزيزيه بنده المتحده  ",
+    "chassisNumber": "JL5B3G6PXBRJ10450",
+    "plateNumberArabic": "٥٩١٤",
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
+    "plateNumberEnglish": "5914",
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "914217010",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 54,
+    "owner": "شركة العزيزيه بنده المتحده  ",
+    "chassisNumber": "JL5B3G6PXBRJ10450",
+    "plateNumberArabic": "٥٩١٤",
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
+    "plateNumberEnglish": "5914",
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "914217010",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 55,
+    "owner": "شركة الامد السعودي لخدمات المطارات والنقل الجوي المساندة",
+    "chassisNumber": "JL5B3G6P8FRN20024",
+    "plateNumberArabic": "٩٧٨٦",
+    "plateLettersArabic": [
+      "ل",
+      "ب",
+      "ب"
+    ],
+    "plateNumberEnglish": "9786",
+    "plateLettersEnglish": [
+      "L",
+      "B",
+      "B"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "83872510",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "04/09/2026",
+    "inspectionDate": "04/09/2025",
+    "inspectionCenter": "المجمعة"
+  },
+  {
+    "id": 56,
+    "owner": "عبدالله بن شجاع بن براك العتيبي ",
+    "chassisNumber": "JL5B3G6P2BRJ10863",
+    "plateNumberArabic": "٥٧٨٩",
+    "plateLettersArabic": [
+      "ط",
+      "ك",
+      "أ"
+    ],
+    "plateNumberEnglish": "5789",
+    "plateLettersEnglish": [
+      "T",
+      "K",
+      "A"
+    ],
+    "company": "  متسوبيشي",
+    "serialNumber": "48496010",
+    "vehicleType": " باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "03/09/2026",
+    "inspectionDate": "03/09/2025",
+    "inspectionCenter": "القصيم"
+  },
+  {
+    "id": 57,
+    "owner": "شركة السيارات الغربيه المحدوده ",
+    "chassisNumber": "MB1PAEHD7GUVA5380",
+    "plateNumberArabic": "٤٩٩٣",
+    "plateLettersArabic": [
+      "ع",
+      "ح",
+      "ب"
+    ],
+    "plateNumberEnglish": "4993",
+    "plateLettersEnglish": [
+      "E",
+      "J",
+      "B"
+    ],
+    "company": " اشوك ليلاند",
+    "serialNumber": "896619510",
+    "vehicleType": "حافلة",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "03/09/2026",
+    "inspectionDate": "03/09/2025",
+    "inspectionCenter": "القصيم"
+  },
+  {
+    "id": 58,
+    "owner": "فرع شركة لاندمارك العربية المحدودة ",
+    "chassisNumber": "JL5B3G6P1BRJ10563",
+    "plateNumberArabic": "٢٣٦٩",
+    "plateLettersArabic": [
+      "ق",
+      "ل",
+      "أ"
+    ],
+    "plateNumberEnglish": "2369",
+    "plateLettersEnglish": [
+      "G",
+      "L",
+      "A"
+    ],
+    "company": "متسوبيشي",
+    "serialNumber": "268872110",
+    "vehicleType": "باص روزا",
+    "yearOfManufacture": "2011",
+    "inspectionExpiryDate": "03/09/2026",
+    "inspectionDate": "03/09/2025",
+    "inspectionCenter": "القصيم"
   }
 ]
