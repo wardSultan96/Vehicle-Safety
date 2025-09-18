@@ -19,10 +19,10 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
         </div>
         
         
-        <!-- <div class="expiry-date text-center">
+        <div class="expiry-date text-center">
           <p>تاريخ انتهاء صلاحية الفحص</p>
-          <h2>18/11/2025</h2>
-        </div> -->
+          <h2>28/07/2026</h2>
+        </div>
         
         <hr class="divider" />
         
@@ -170,12 +170,13 @@ export class SearchPageComponent {
     { order: 8, english: 'T', arabic: 'ط' },
     { order: 9, english: 'G', arabic: 'ق' },
     { order: 10, english: 'K', arabic: 'ك' },
-    { order: 11, english: 'L', arabic: 'ل' },
-    { order: 12, english: 'M', arabic: 'م' },
-    { order: 13, english: 'N', arabic: 'ن' },
-    { order: 14, english: 'V', arabic: 'هـ' },
-    { order: 15, english: 'W', arabic: 'و' },
-    { order: 16, english: 'Y', arabic: 'ي' }
+    { order: 11, english: 'E', arabic: 'ع' },
+    { order: 12, english: 'L', arabic: 'ل' },
+    { order: 13, english: 'M', arabic: 'م' },
+    { order: 14, english: 'N', arabic: 'ن' },
+    { order: 15, english: 'V', arabic: 'هـ' },
+    { order: 16, english: 'W', arabic: 'و' },
+    { order: 17, english: 'Y', arabic: 'ي' }
   ];
   form: FormGroup;
   user: any = null;
