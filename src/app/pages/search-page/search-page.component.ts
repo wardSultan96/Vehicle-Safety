@@ -21,7 +21,7 @@ import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
         
         <div class="expiry-date text-center">
           <p>تاريخ انتهاء صلاحية الفحص</p>
-          <h2>28/07/2026</h2>
+          <h2>03/09/2026</h2>
         </div>
         
         <hr class="divider" />
